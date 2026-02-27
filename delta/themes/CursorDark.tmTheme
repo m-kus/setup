@@ -410,9 +410,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Rust types — struct, enum, union, trait, impl names</string>
+			<string>Rust types — struct, enum, union, trait, impl names, primitives</string>
 			<key>scope</key>
-			<string>entity.name.struct.rust, entity.name.enum.rust, entity.name.union.rust, entity.name.impl.rust, support.type.rust, storage.type.source.rust</string>
+			<string>entity.name.struct.rust, entity.name.enum.rust, entity.name.union.rust, entity.name.impl.rust, support.type.rust, storage.type.source.rust, support.type.primitive.rust</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -498,9 +498,20 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Rust path segments — modules and namespaces</string>
+			<key>scope</key>
+			<string>meta.path.rust</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4EC9B0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Rust path separators and accessors</string>
 			<key>scope</key>
-			<string>punctuation.accessor.rust, punctuation.accessor.double-colon.rust, punctuation.accessor.dot.rust, meta.path.rust</string>
+			<string>punctuation.accessor.rust, punctuation.accessor.double-colon.rust, punctuation.accessor.dot.rust</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -509,9 +520,20 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Rust punctuation — braces, parens, brackets, semicolons, commas</string>
+			<string>Rust grouping punctuation — () [] {} &lt;&gt;</string>
 			<key>scope</key>
-			<string>punctuation.section.block.rust, punctuation.section.group.rust, punctuation.section.brackets.rust, punctuation.section.parameters.rust, punctuation.terminator.rust, punctuation.separator.rust, punctuation.definition.generic.rust</string>
+			<string>punctuation.section.block.begin.rust, punctuation.section.block.end.rust, punctuation.section.group.begin.rust, punctuation.section.group.end.rust, punctuation.section.brackets.begin.rust, punctuation.section.brackets.end.rust, punctuation.section.parameters.begin.rust, punctuation.section.parameters.end.rust, punctuation.definition.generic.begin.rust, punctuation.definition.generic.end.rust</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C586C0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rust delimiters — semicolons, commas, colons</string>
+			<key>scope</key>
+			<string>punctuation.terminator.rust, punctuation.separator.rust</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -520,13 +542,24 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Rust annotations / attributes</string>
+			<string>Rust annotation names — derive, cfg, allow, etc.</string>
 			<key>scope</key>
-			<string>meta.annotation.rust</string>
+			<string>variable.annotation.rust</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#DCDCAA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rust annotation markers — #, !</string>
+			<key>scope</key>
+			<string>punctuation.definition.annotation.rust</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C586C0</string>
 			</dict>
 		</dict>
 		<dict>

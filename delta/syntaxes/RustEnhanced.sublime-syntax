@@ -301,6 +301,8 @@ contexts:
     - include: lifetime
     - include: keywords
     - include: symbols
+    - match: '{{camel_ident}}'
+      scope: storage.type.source.rust
 
   block:
     - match: '\}'
@@ -496,7 +498,7 @@ contexts:
     - match: '{{identifier}}(?=<)'
       push: generic-angles
     - match: \b(Self|{{int_suffixes}}|{{float_suffixes}}|bool|char|str)\b
-      scope: storage.type.rust
+      scope: support.type.primitive.rust
     # stdsimd types
     - match: |-
         (?x)
@@ -1519,6 +1521,7 @@ contexts:
       - include: comments
       - include: basic-identifiers
       - match: '{{identifier}}'
+        scope: meta.path.rust
       - match: '(?=<)'
         push: generic-angles
       - match: ''
@@ -1599,8 +1602,11 @@ contexts:
     - match: \b(crate|extern|use|where)\b
       scope: keyword.other.rust
 
-    - match: \b(async|await|else|for|if|loop|match|try|while|yield)\b
+    - match: \b(await|else|for|if|loop|match|try|while|yield)\b
       scope: keyword.control.rust
+
+    - match: \basync\b
+      scope: keyword.other.rust
 
     - match: \b(break|continue)\b
       scope: keyword.control.rust
