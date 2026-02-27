@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Cursor Dark</string>
+	<key>settings</key>
+	<array>
+		<!-- Global settings -->
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#1F1F1F</string>
+				<key>foreground</key>
+				<string>#CCCCCC</string>
+				<key>caret</key>
+				<string>#AEAFAD</string>
+				<key>selection</key>
+				<string>#264F78</string>
+				<key>lineHighlight</key>
+				<string>#2A2D2E</string>
+				<key>gutterForeground</key>
+				<string>#6E7681</string>
+			</dict>
+		</dict>
+
+		<!-- dark_vs.json base tokens -->
+		<dict>
+			<key>scope</key>
+			<string>meta.embedded, source.groovy.embedded, string meta.image.inline.markdown, variable.legacy.builtin.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D4D4D4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>comment, punctuation.definition.comment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6A9955</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>constant.language</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#569cd6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>constant.numeric, keyword.operator.plus.exponent, keyword.operator.minus.exponent</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b5cea8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>constant.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#646695</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>constant.character</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#569cd6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>constant.character.escape</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d7ba7d</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>entity.name.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#569cd6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>entity.other.attribute-name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9cdcfe</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>invalid</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f44747</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>meta.preprocessor, entity.name.function.preprocessor</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#569cd6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>storage</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#569cd6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>storage.type</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#569cd6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>storage.modifier, keyword.operator.noexcept</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#569cd6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>string, meta.embedded.assembly</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ce9178</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>string.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d16969</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end, punctuation.section.embedded</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#569cd6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>meta.template.expression</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d4d4d4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#569cd6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>keyword.control</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#569cd6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>keyword.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d4d4d4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>keyword.operator.new, keyword.operator.expression, keyword.operator.cast, keyword.operator.sizeof, keyword.operator.alignof, keyword.operator.typeid, keyword.operator.alignas, keyword.operator.instanceof, keyword.operator.logical.python, keyword.operator.wordlike</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#569cd6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>keyword.other.unit</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b5cea8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>variable.language</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#569cd6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>support.type.vendored.property-name, support.type.property-name, source.css variable, source.coffee.embedded</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9cdcfe</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>punctuation.definition.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#808080</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>meta.diff.header</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#569cd6</string>
+			</dict>
+		</dict>
+
+		<!-- dark_plus.json overrides -->
+		<dict>
+			<key>name</key>
+			<string>Function declarations</string>
+			<key>scope</key>
+			<string>entity.name.function, support.function, support.constant.handlebars, source.powershell variable.other.member, entity.name.operator.custom-literal</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DCDCAA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Types declaration and references</string>
+			<key>scope</key>
+			<string>support.class, support.type, entity.name.type, entity.name.namespace, entity.other.attribute, entity.name.scope-resolution, entity.name.class, storage.type.numeric.go, storage.type.byte.go, storage.type.boolean.go, storage.type.string.go, storage.type.uintptr.go, storage.type.error.go, storage.type.rune.go, storage.type.cs, storage.type.generic.cs, storage.type.modifier.cs, storage.type.variable.cs, storage.type.annotation.java, storage.type.generic.java, storage.type.java, storage.type.object.array.java, storage.type.primitive.array.java, storage.type.primitive.java, storage.type.token.java, storage.type.groovy, storage.type.annotation.groovy, storage.type.parameters.groovy, storage.type.generic.groovy, storage.type.object.array.groovy, storage.type.primitive.array.groovy, storage.type.primitive.groovy</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4EC9B0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Types TS grammar specific</string>
+			<key>scope</key>
+			<string>meta.type.cast.expr, meta.type.new.expr, support.constant.math, support.constant.dom, support.constant.json, entity.other.inherited-class, punctuation.separator.namespace.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4EC9B0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Control flow / Special keywords</string>
+			<key>scope</key>
+			<string>keyword.control, source.cpp keyword.operator.new, keyword.operator.delete, keyword.other.using, keyword.other.directive.using, keyword.other.operator, entity.name.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C586C0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variable and parameter name</string>
+			<key>scope</key>
+			<string>variable, meta.definition.variable.name, support.variable, entity.name.variable, constant.other.placeholder</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9CDCFE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Constants and enums</string>
+			<key>scope</key>
+			<string>variable.other.constant, variable.other.enummember</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4FC1FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Object keys</string>
+			<key>scope</key>
+			<string>meta.object-literal.key</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9CDCFE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regular expression groups</string>
+			<key>scope</key>
+			<string>punctuation.definition.group.regexp, punctuation.definition.group.assertion.regexp, punctuation.definition.character-class.regexp, punctuation.character.set.begin.regexp, punctuation.character.set.end.regexp, keyword.operator.negation.regexp, support.other.parenthesis.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CE9178</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>constant.character.character-class.regexp, constant.other.character-class.set.regexp, constant.other.character-class.regexp, constant.character.set.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d16969</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>keyword.operator.or.regexp, keyword.control.anchor.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DCDCAA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>keyword.operator.quantifier.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d7ba7d</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>entity.name.label</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C8C8C8</string>
+			</dict>
+		</dict>
+
+		<!-- Rust Enhanced specific scopes -->
+		<dict>
+			<key>name</key>
+			<string>Rust function calls</string>
+			<key>scope</key>
+			<string>variable.function.rust, meta.function-call.rust</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DCDCAA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rust types — struct, enum, union, trait, impl names</string>
+			<key>scope</key>
+			<string>entity.name.struct.rust, entity.name.enum.rust, entity.name.union.rust, entity.name.impl.rust, support.type.rust, storage.type.source.rust</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4EC9B0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rust declaration keywords — fn, struct, enum, trait, impl, mod, type, use</string>
+			<key>scope</key>
+			<string>storage.type.function.rust, storage.type.struct.rust, storage.type.enum.rust, storage.type.trait.rust, storage.type.impl.rust, storage.type.module.rust, storage.type.type.rust, storage.type.union.rust, keyword.other.rust</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#569cd6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rust control flow — if, else, match, loop, for, while, return, break, continue</string>
+			<key>scope</key>
+			<string>keyword.control.rust</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C586C0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rust modifiers — pub, mut, ref, const, static, unsafe, async, await, dyn</string>
+			<key>scope</key>
+			<string>storage.modifier.rust</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#569cd6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rust lifetimes</string>
+			<key>scope</key>
+			<string>storage.modifier.lifetime.rust</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#569cd6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rust macros</string>
+			<key>scope</key>
+			<string>support.macro.rust</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DCDCAA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rust variables and parameters</string>
+			<key>scope</key>
+			<string>variable.other.rust, variable.parameter.rust, variable.other.member.rust</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9CDCFE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rust constants</string>
+			<key>scope</key>
+			<string>variable.other.constant.rust, constant.other.rust</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4FC1FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rust path separators and accessors</string>
+			<key>scope</key>
+			<string>punctuation.accessor.rust, punctuation.accessor.double-colon.rust, punctuation.accessor.dot.rust, meta.path.rust</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CCCCCC</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rust punctuation — braces, parens, brackets, semicolons, commas</string>
+			<key>scope</key>
+			<string>punctuation.section.block.rust, punctuation.section.group.rust, punctuation.section.brackets.rust, punctuation.section.parameters.rust, punctuation.terminator.rust, punctuation.separator.rust, punctuation.definition.generic.rust</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CCCCCC</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rust annotations / attributes</string>
+			<key>scope</key>
+			<string>meta.annotation.rust</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DCDCAA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rust self keyword</string>
+			<key>scope</key>
+			<string>variable.language.rust</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#569cd6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rust operators</string>
+			<key>scope</key>
+			<string>keyword.operator.rust, keyword.operator.arithmetic.rust, keyword.operator.assignment.rust, keyword.operator.bitwise.rust, keyword.operator.comparison.rust, keyword.operator.logical.rust, keyword.operator.range.rust</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CCCCCC</string>
+			</dict>
+		</dict>
+
+		<!-- Markup -->
+		<dict>
+			<key>scope</key>
+			<string>markup.heading</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#569cd6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>markup.bold</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#569cd6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>markup.italic</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#C586C0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>markup.inserted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b5cea8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>markup.deleted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ce9178</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>markup.changed</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#569cd6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>markup.inline.raw</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ce9178</string>
+			</dict>
+		</dict>
+	</array>
+	<key>uuid</key>
+	<string>cursor-dark-modern-theme</string>
+</dict>
+</plist>
